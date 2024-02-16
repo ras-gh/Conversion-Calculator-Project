@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversion Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>CONVERSION CALCULATOR</h1>
+      <br />
+      <div id="line"></div>
+
+      <form action="">
+        <!-- <label id="label1" >Choose a Conversion:</label> -->
+        <select name="calc" id="selection">
+          <option name="Make a selection" value="" id="make" >
+           Make a selection
+          </option>
+          
+          <option name="Miles to KM" value="mkm" value="Miles to KM">
+            Miles to km
+          </option>
+          
+            <option name="Km to Miles" value="kmm" value="Miles to KM">
+              Km to miles
+            </option>
+          <option name="Inches to CM" value="icm" value="">Inches to cm</option>
+
+          <option name="CM to Inches" value="cmi" value="">Cm to inches</option>
+
+          <option name="Pints to L" value="pli" value="">Pints to litres</option>
+
+          <option name="Pints to L" value="lip" value=""> Litres to pints</option>
+          <option name="Celsius to Fahrenheit" value="cfa" value="">Celsius to Fahrenheit</option>
+
+          <option name="Fahrenheit to Celsius" value="fac" value="">Fahrenheit to Celsius</option>
+          <option name="Pounds to kilos" value="pki" value="">Pounds to kilos</option>
+          <option name="Kilos to pounds" value="kpo" value="">Kilos to pounds</option>
+
+
+        </select>
+        <div id="first">
+          <input
+            align="left"
+            id="input1"
+            type="number"
+            min="0"
+            step="any"
+            value="" placeholder="Enter a value" />
+  <!-- The input box  will accept only numeric values (type=number) and floating point (step=any)-->
+         
+            
+          </input>
+          <p id="from">MILES</p>
+        </div>
+        <div id="second">
+          <input id="input2" type="number"  disabled="true" />
+          <p id="to">KM</p>
+<!-- SEE IMPORTANT NOTE BELOW -->
+          <button id="btnReset" onclick="reset();return false;">Clear</button>
+<!-- Button to calculate the result -->
+          <button id="btnCalc" onclick="calculate();return false;">Calculate</button>
+<!-- NOTE: the return false; after the calculate () function is IMPORTANT because it stops the form from refreshing and wiping out all of the calculations -->
+        </div>
+      
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

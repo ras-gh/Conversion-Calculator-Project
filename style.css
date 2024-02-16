@@ -1,0 +1,133 @@
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+#container {
+    text-align: center;
+    background-color: azure;
+ margin-top:20px;
+    position: absolute;
+    margin-left:20%;
+    margin-right:auto;
+    width:250px;
+    height:270px;
+    border: solid blue 6px;
+    border-radius:10px;
+}
+#line {
+    position:absolute;
+    top:44px;
+
+    background-color: blue;
+    width: 250px;
+    height:4px;
+    border: solid blue 1px;
+}
+
+h1 {
+    user-select: none;
+    margin-top:10px;
+    padding-top:0px;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#selection {
+    position:absolute;
+    top:60px ;
+    left:44px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#selection:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+#make {
+    font-size: 12px;
+}
+#label1 {
+    margin-top:5px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#input1 {
+    border:solid black 2px;
+    background-color: rgb(245, 245, 245);
+    position:absolute;
+    height:28px;
+    width:120px;
+    left:25px;
+    top: 120px;
+    margin-top:10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#input1:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+#input2{
+    user-select:none;
+
+    position:absolute;
+    width:120px;
+    height:28px;
+    left:25px;
+    top: 164px;
+border:solid black 2px;
+  
+    margin-top:10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+::placeholder {
+    font-size: 14px;
+    opacity:0.7;
+}
+#from {
+    position:absolute;
+    top:140px;
+    left:162px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#to {
+    position:absolute;
+    top:184px;
+    left:162px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#first {
+    width:100%;
+}
+#btnReset {
+    position:absolute;
+    height:26px;
+    width:60px;
+    top:234px;
+    left:160px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#btnCalc {
+    position:absolute;
+    height:30px;
+    width:80px;
+    top:230px;
+    left:30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif
+}
